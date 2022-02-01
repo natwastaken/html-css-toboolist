@@ -19,7 +19,7 @@ html {
 
 
 body {
-    background-color: #bfc0c1;
+    background-color: #F6F8F9;
 }            
 
 .v-allign-center {
@@ -50,20 +50,22 @@ main {
   margin: 2em auto;
 }
 
+
 .main-header {
   padding: 10px 20px 5px;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid #F6F8F9;
 }
 
                     /* btns */
                     
 .btn {
   padding: 0.5em;
-  border: 1px solid lightgrey;
+  border: 1px solid lightgray;
   border-radius: 0.3em;
   background-color: white;
   font-size: 1em;
   color: black;
+  display: inline-block;
 }
 
 .btn-lightblue {
@@ -76,3 +78,61 @@ main {
   color: lightgrey;
 }
 
+
+                /* lista */
+.content {
+  padding: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+.todo-list li {
+  margin: 1em 0;
+}
+
+.type-todo-list-item h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+                                    /* checkers */
+
+.topic {
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 1.6em;
+  color: white;
+  background-color: 
+  #14AAF5;
+}
+
+.goals {
+  background-color: #AB5DE6;
+}
+
+.recruiting {
+  background-color: #32C7AD;
+}
+
+.mobile {
+  background-color: #FF9B00;
+}
+
+.check {
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  color: green;
+}
+
+.unchecked {
+  border-color: red;
+  color: red;
+}
