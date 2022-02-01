@@ -1,0 +1,40 @@
+
+            /* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+            /* Reset */
+
+
+
+body {
+    background-color: #bfc0c1;
+}            
+
+.v-allign-center {
+
+    vertical-align: middle;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    padding: 0 20px;
+}
+
+.header-txt {
+    display: inline-block;
+    font-size: 2.5em;
+}
