@@ -38,3 +38,41 @@ header {
     display: inline-block;
     font-size: 2.5em;
 }
+
+
+
+        /* main */
+
+main {
+  width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  margin: 2em auto;
+}
+
+.main-header {
+  padding: 10px 20px 5px;
+  border-bottom: 2px solid lightgrey;
+}
+
+                    /* btns */
+                    
+.btn {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  border-radius: 0.3em;
+  background-color: white;
+  font-size: 1em;
+  color: black;
+}
+
+.btn-lightblue {
+  background-color: #14AAF5;
+  border-color: #14AAF5;
+  color: white;
+}
+
+.btn-white {
+  color: lightgrey;
+}
+
